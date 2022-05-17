@@ -1,0 +1,22 @@
+.filterBox {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.filterHeader {
+  display: flex;
+  flex-direction: column;
+  color: #161d29;
+  font-size: larger;
+  font-weight: 700;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.filterHeader input {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}

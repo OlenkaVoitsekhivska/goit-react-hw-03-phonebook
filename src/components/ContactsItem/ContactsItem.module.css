@@ -1,0 +1,19 @@
+.contactItem {
+  color: pink;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contName,
+.contNumber {
+  color: #161d29;
+  font-weight: 700;
+}
+
+.contBtn {
+  border: none;
+  border-radius: 4px;
+  padding: 5px 30px;
+}
+.contBtn:hover {
+  background-color: pink;
+}
