@@ -61,12 +61,13 @@ class Form extends Component {
 }
 
 Form.propTypes = {
-  props: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    number: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired,
-    onSubmit: PropTypes.func.isRequired
-  }),
+  // props: PropTypes.shape({
+  //   name: PropTypes.string.isRequired,
+  //   number: PropTypes.string.isRequired,
+  //   id: PropTypes.string.isRequired,
+  //   onSubmit: PropTypes.func.isRequired
+  // }),
+  onSubmit: PropTypes.func.isRequired
 };
 
 export default Form;
